@@ -246,10 +246,8 @@ All major browsers support encoding and decoding strings in various ways leverag
 
 - Base64 encode: `btoa("string-to-encode")`
 - Base64 decode: `atob("string-to-decode")`
-- URL encode: `encodeURIComponent("string-to-encode")`
-- URL decode: `decodeURIComponent("string-to-decode")`
-- HTML encode: `escape("string-to-encode")`
-- HTML decode: `unescape("string-to-decode")`
+- URL path encode: `encodeURIComponent("string-to-encode")`
+- URL path decode: `decodeURIComponent("string-to-decode")`
 
 ## Responsive Design Mode
 
